@@ -1,0 +1,31 @@
+/*Seletor padrão*/
+p{
+    color:red;
+}
+
+/*Seletor universal*/
+*{
+    color:blue
+}
+
+/*Seletor com id*/
+#subtitulo{
+    font-size: 20px;
+    color: black;
+}
+
+/*Seletor com class*/
+.subtituloclass{
+    font-size: 20px;
+    color: orange;
+}
+
+/*Pseudoclasse*/
+h4:hover{
+    font-size: 50px;
+}
+
+/*Pseudoelemento*/
+h5::first-line{
+    background-color: rgb(60, 255, 0);
+}
